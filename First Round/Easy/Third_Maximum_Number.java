@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.TreeSet;
+package Easy;
 
 public class Third_Maximum_Number {
     public int thirdMax(int[] nums) {

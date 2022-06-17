@@ -1,5 +1,6 @@
+package Easy;
+
 import java.util.Arrays;
-import java.util.TreeSet;
 
 public class Maximum_Product_of_Three_Numbers {
     public int maximumProduct(int[] nums) {

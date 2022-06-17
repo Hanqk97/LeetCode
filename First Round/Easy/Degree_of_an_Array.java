@@ -1,4 +1,5 @@
-import java.sql.Array;
+package Easy;
+
 import java.util.*;
 
 public class Degree_of_an_Array {

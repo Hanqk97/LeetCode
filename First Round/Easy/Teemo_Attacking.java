@@ -1,3 +1,5 @@
+package Easy;
+
 public class Teemo_Attacking {
     public int findPoisonedDuration(int[] timeSeries, int duration) {
 

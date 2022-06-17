@@ -1,3 +1,5 @@
+package Easy;
+
 public class Max_Consecutive_Ones {
     public int findMaxConsecutiveOnes(int[] nums) {
         int maxOnes = 0;

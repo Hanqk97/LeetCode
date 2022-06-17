@@ -1,6 +1,6 @@
+package Easy;
+
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Set_Mismatch {
     public int[] findErrorNums(int[] nums) {
