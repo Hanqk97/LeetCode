@@ -2,7 +2,7 @@ package Easy;
 
 import java.util.Arrays;
 
-public class Maximum_Product_of_Three_Numbers {
+public class LC628_Maximum_Product_of_Three_Numbers {
     public int maximumProduct(int[] nums) {
         Arrays.sort(nums);
         if(nums[0]<0&&nums[1]<0){
@@ -15,7 +15,7 @@ public class Maximum_Product_of_Three_Numbers {
     public static void main(String[] args) {
         int[] test1 = {-1,-2,-3};
         int[] test2 = {1,7,3,4};
-        Maximum_Product_of_Three_Numbers t = new Maximum_Product_of_Three_Numbers();
+        LC628_Maximum_Product_of_Three_Numbers t = new LC628_Maximum_Product_of_Three_Numbers();
         System.out.println(t.maximumProduct(test1));
         System.out.println(t.maximumProduct(test2));
 

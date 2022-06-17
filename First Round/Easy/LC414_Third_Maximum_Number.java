@@ -1,6 +1,6 @@
 package Easy;
 
-public class Third_Maximum_Number {
+public class LC414_Third_Maximum_Number {
     public int thirdMax(int[] nums) {
         int firstMax = -2147483648;// -2^31
         for(int i=0; i<nums.length;i++){
@@ -34,7 +34,7 @@ public class Third_Maximum_Number {
 
     public static void main(String[] args) {
         int nums[] = {2,2,3,1};
-        Third_Maximum_Number t = new Third_Maximum_Number();
+        LC414_Third_Maximum_Number t = new LC414_Third_Maximum_Number();
         System.out.println(t.thirdMax(nums));
     }
 

@@ -2,7 +2,7 @@ package Easy;
 
 import java.util.Arrays;
 
-public class Set_Mismatch {
+public class LC645_Set_Mismatch {
     public int[] findErrorNums(int[] nums) {
         int [] result = new int[2];
         Arrays.sort(nums);
@@ -67,7 +67,7 @@ public class Set_Mismatch {
     public static void main(String[] args) {
         int[] test = {1,5,3,2,2,7,6,4,8,9};
         int[] test2 = {3,3,1};
-        Set_Mismatch a = new Set_Mismatch();
+        LC645_Set_Mismatch a = new LC645_Set_Mismatch();
         System.out.println(a.findErrorNums(test)[0]+"/"+a.findErrorNums(test)[1]);
         System.out.println(a.findErrorNums(test2)[0]+"/"+a.findErrorNums(test2)[1]);
     }

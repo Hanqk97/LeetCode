@@ -1,6 +1,6 @@
 package Easy;
 
-public class Teemo_Attacking {
+public class LC495_Teemo_Attacking {
     public int findPoisonedDuration(int[] timeSeries, int duration) {
 
         if(timeSeries == null || duration == 0){
@@ -28,7 +28,7 @@ public class Teemo_Attacking {
     public static void main(String[] args) {
         int timeSeries[] = {1,2};
         int duration = 2;
-        Teemo_Attacking a = new Teemo_Attacking();
+        LC495_Teemo_Attacking a = new LC495_Teemo_Attacking();
         int result = a.findPoisonedDuration(timeSeries,duration);
         System.out.println(result);
     }

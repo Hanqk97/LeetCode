@@ -2,7 +2,7 @@ package Medium;
 
 import java.util.*;
 
-public class Find_All_Duplicates_in_an_Array {
+public class LC442_Find_All_Duplicates_in_an_Array {
     public List<Integer> findDuplicates(int[] nums) {
         Map<Integer,Integer> map = new HashMap<Integer,Integer>();
         for(int num : nums) {//count times
@@ -49,7 +49,7 @@ public class Find_All_Duplicates_in_an_Array {
         int[] t1 = {4,3,2,7,8,2,3,1};
         int[] t2 = {1,1,2};
 
-        Find_All_Duplicates_in_an_Array a = new Find_All_Duplicates_in_an_Array();
+        LC442_Find_All_Duplicates_in_an_Array a = new LC442_Find_All_Duplicates_in_an_Array();
         List<Integer> r1 = a.findDuplicates(t1);
         for(int i: r1){
             System.out.print(i+"/");

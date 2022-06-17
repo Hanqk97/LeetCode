@@ -20,7 +20,7 @@ package Easy;//Given an array of integers nums and an integer target, return ind
 //        Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
 
-public class TwoSum_BruteForce {
+public class LC001_TwoSum_BruteForce {
     public int[] twoSum(int nums[], int target){
         int[] result =  new int[2];
         for (int i = 0; i < nums.length-1; i++){
@@ -36,7 +36,7 @@ public class TwoSum_BruteForce {
     }
 
     public static void main(String[] args) {
-        TwoSum_BruteForce twoSumBruteForce = new TwoSum_BruteForce();
+        LC001_TwoSum_BruteForce twoSumBruteForce = new LC001_TwoSum_BruteForce();
         int[] test1 = new int[]{2,7,11,15};
         int[] result1 = twoSumBruteForce.twoSum(test1, 9);
         for(int index : result1){

@@ -2,7 +2,7 @@ package Easy;
 
 import java.util.*;
 
-public class Degree_of_an_Array {
+public class LC697_Degree_of_an_Array {
     public int findShortestSubArray(int[] nums) {
         Map<Integer,Integer> map = new HashMap<Integer,Integer>();
         for(int num: nums){
@@ -86,7 +86,7 @@ public class Degree_of_an_Array {
     public static void main(String[] args) {
         int[] t1 = {1,2,2,3,1,4,2};
 
-        Degree_of_an_Array a = new Degree_of_an_Array();
+        LC697_Degree_of_an_Array a = new LC697_Degree_of_an_Array();
         a.findShortestSubArray(t1);
         System.out.println(a.findShortestSubArray(t1));
     }

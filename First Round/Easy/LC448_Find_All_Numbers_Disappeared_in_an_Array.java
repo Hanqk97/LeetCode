@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Find_All_Numbers_Disappeared_in_an_Array {
+public class LC448_Find_All_Numbers_Disappeared_in_an_Array {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         List<Integer> notAppear = new LinkedList<>();
         Arrays.sort(nums);
@@ -78,7 +78,7 @@ public class Find_All_Numbers_Disappeared_in_an_Array {
         System.out.println();
         int[] t2 = {1,1};
 
-        Find_All_Numbers_Disappeared_in_an_Array a = new Find_All_Numbers_Disappeared_in_an_Array();
+        LC448_Find_All_Numbers_Disappeared_in_an_Array a = new LC448_Find_All_Numbers_Disappeared_in_an_Array();
         for(int i: a.findDisappearedNumbers(t1)){
             System.out.print(i+" ");
         }
