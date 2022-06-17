@@ -64,16 +64,16 @@ public class Degree_of_an_Array {
 //                map.get(nums[i])[0]++;
 //                map.get(nums[i])[2] = i;
 //            } else {
-//                map.put(nums[i], new int[]{1, i, i});
+//                map.put(nums[i], new int[]{1, i, i});//int[]{count,first,last}
 //            }
 //        }
 //        int maxNum = 0, minLen = 0;
 //        for (Map.Entry<Integer, int[]> entry : map.entrySet()) {
-//            int[] arr = entry.getValue();
+//            int[] arr = entry.getValue();//one item, update count, length
 //            if (maxNum < arr[0]) {
 //                maxNum = arr[0];
 //                minLen = arr[2] - arr[1] + 1;
-//            } else if (maxNum == arr[0]) {
+//            } else if (maxNum == arr[0]) {//when have two or more numbers with same max count
 //                if (minLen > arr[2] - arr[1] + 1) {
 //                    minLen = arr[2] - arr[1] + 1;
 //                }
