@@ -13,7 +13,7 @@ Input: nums = [7,8,9,11,12]
 Output: 1
  */
 
-public class LC41UR_First_Missing_Positive {
+public class LC041UR_First_Missing_Positive {
     public int firstMissingPositive(int[] nums) {
         int len = nums.length;
         // [3, 4, -1, 1]=>[-1,4,3,1]=>[-1,1,3,4]=>while:[1,-1,3,4]
@@ -44,7 +44,7 @@ public class LC41UR_First_Missing_Positive {
         int[] t3 = {1,3,3};
         int[] t4 = {1,2,3,4,5,6,7,8,9,20};
 
-        LC41UR_First_Missing_Positive a = new LC41UR_First_Missing_Positive();
+        LC041UR_First_Missing_Positive a = new LC041UR_First_Missing_Positive();
         System.out.println(a.firstMissingPositive(t3));
     }
 }
