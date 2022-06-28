@@ -56,4 +56,5 @@ public class LC419UR_Battleships_in_a_Board {
         char[][] t1 = {{'X','.','.','X'},{'.','.','.','X'},{'.','.','.','X'}};
         System.out.println(A.countBattleships(t1));
     }
+
 }
