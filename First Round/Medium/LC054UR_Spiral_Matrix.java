@@ -3,7 +3,7 @@ package Medium;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LC54UR_Spiral_Matrix {
+public class LC054UR_Spiral_Matrix {
     public List<Integer> spiralOrder(int[][] matrix) {
         /*
         可以模拟螺旋矩阵的路径。初始位置是矩阵的左上角，初始方向是向右，当路径超出界限或者进入之前访问过的位置时，顺时针旋转，进入下一个方向。

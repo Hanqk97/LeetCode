@@ -10,7 +10,7 @@ Output: [[1]]
 Constraints:
 1 <= n <= 20
  */
-public class LC59UR_Spiral_Matrix_II {
+public class LC059UR_Spiral_Matrix_II {
     public int[][] generateMatrix(int n) {
         int[][] matrix = new int[n][n];
         int row = 0,column = 0;

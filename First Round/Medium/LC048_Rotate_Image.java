@@ -14,7 +14,7 @@ n == matrix.length == matrix[i].length
 -1000 <= matrix[i][j] <= 1000
  */
 
-public class LC48_Rotate_Image {
+public class LC048_Rotate_Image {
     public void rotate(int[][] matrix) {
         int row = matrix.length;
         int column = matrix[0].length;
