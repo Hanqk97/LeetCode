@@ -15,7 +15,7 @@ Constraints:
 strs[i] consists of only lowercase English letters.
  */
 
-public class LC14_Longest_Common_Prefix {
+public class LC014_Longest_Common_Prefix {
     public String longestCommonPrefix(String[] strs) {
         int smallStr = Integer.MAX_VALUE;
         for(String a : strs){
@@ -67,7 +67,7 @@ public class LC14_Longest_Common_Prefix {
 
     public static void main(String[] args) {
         String[] t1 = {"flower","flow","flight"};
-        LC14_Longest_Common_Prefix a = new LC14_Longest_Common_Prefix();
+        LC014_Longest_Common_Prefix a = new LC014_Longest_Common_Prefix();
         System.out.println(a.longestCommonPrefix(t1));
     }
 }
