@@ -65,7 +65,6 @@ public class LC383_Ransom_Note {
 
     时间复杂度：O(m+n)，其中 mm 是字符串 ransomNote 的长度，n 是字符串magazine 的长度，我们只需要遍历两个字符一次即可。
     空间复杂度：O(∣S∣)，SS 是字符集，这道题中 S 为全部小写英语字母，因此 ∣S∣=26。
-
      */
 
     public static void main(String[] args) {
