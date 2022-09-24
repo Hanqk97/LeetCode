@@ -27,7 +27,7 @@ public class LC977_Squares_of_a_Sorted_Array {
         Arrays.sort(nums);
         return nums;
     }
-
+//T(n)=O(nlogn)
     public static void main(String[] args) {
         LC977_Squares_of_a_Sorted_Array a = new LC977_Squares_of_a_Sorted_Array();
         int[] t1 = {-4,-1,0,3,10};
