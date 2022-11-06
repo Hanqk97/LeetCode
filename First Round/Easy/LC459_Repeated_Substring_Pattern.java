@@ -71,6 +71,10 @@ public class LC459_Repeated_Substring_Pattern {
 //        }
         System.out.println(a.repeatedSubstringPattern(t1));
 
+
+        int d = 4;
+        int f = 2;
+        System.out.println(d%f);
     }
 
 }
